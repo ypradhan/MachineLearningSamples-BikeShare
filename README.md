@@ -1,19 +1,17 @@
-# Bike-share tutorial: Advanced data preparation with Azure Machine Learning Workbench
+# Bike-share Tutorial: Advanced Data Preparation with Azure Machine Learning Workbench
 
 This is a companion sample project of the Azure Machine Learning and [Bike Share Tutorial](https://docs.microsoft.com/en-us/azure/machine-learning/preview/tutorial-bikeshare-dataprep). 
-
 
 Azure Machine Learning services (preview) is an integrated, end-to-end data science, and advanced analytics solution for professional data scientists to prepare data, develop experiments and deploy models at cloud scale.
 
 In this tutorial, you use Azure Machine Learning services (preview) to learn how to:
-> [!div class="checklist"]
-> * Prepare data interactively with the Azure Machine Learning Data Preparation tool
-> * Import, transform, and create a test dataset
-> * Generate a Data Preparation package
-> * Run the Data Preparation Package using Python
-> * Generate a training dataset by reusing the Data Preparation package for additional input files
-> * Execute scripts in a local Azure CLI window.
-> * Execute scripts in a cloud Azure HDInsight environment.
+- [X] Prepare data interactively with the Azure Machine Learning Data Preparation tool
+- [X] Import, transform, and create a test dataset
+- [X] Generate a Data Preparation package
+- [X] Run the Data Preparation Package using Python
+- [X] Generate a training dataset by reusing the Data Preparation package for additional input files
+- [X] Execute scripts in a local Azure CLI window.
+- [X] Execute scripts in a cloud Azure HDInsight environment.
 
 
 ## Prerequisites
@@ -54,7 +52,8 @@ You can use blob storage to host your data files.
 
 ![azurestoragedatafile.png](media/azurestoragedatafile.png)
 
-> [!TIP]
+> :bulb: Tips
+>
 > You may also use **Azure Storage Explorer** to upload blobs. This tool can be used when you want to view the contents of any of the files generated in the tutorial as well.
 
 ## Learn about the datasets
